@@ -21,7 +21,7 @@ const Sidebar = () => {
         <div  className="menu-bars z-20">
           <FaBars
             onClick={showSidebar}
-            className={`${sidebar ? 'hidden' : 'block text-white'}`}
+            className={`${sidebar ? 'hidden' : 'block text-white cursor-pointer'}`}
           />
         </div>
       </div>
@@ -37,7 +37,7 @@ const Sidebar = () => {
             <div>
               <FaTimes
                 size={50}
-                className="menu-bars text-white top-0 -mt-24 ml-10 font-bold"
+                className="menu-bars text-white top-0 -mt-24 ml-10 font-bold cursor-pointer"
               />
             </div>
           </li>
